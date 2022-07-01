@@ -19,3 +19,8 @@ header ul {
 header ul li {
   margin-left: 25px;
 }
+
+.greeting {
+  display: flex;
+  margin: 70px 0;
+}
