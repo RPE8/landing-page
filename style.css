@@ -17,16 +17,14 @@ html {
   margin: 0 auto;
 }
 
-.header.container {
-  display: flex;
-  flex-direction: column;
+header {
+  padding-top: 20px;
 }
 
-header ul {
-  padding: 0;
-  margin: 0;
+header > .container {
   display: flex;
-  list-style-type: none;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header,
@@ -35,18 +33,21 @@ header,
   background-color: #1f2937;
 }
 
-header .container {
+.navbar {
   display: flex;
   justify-content: space-between;
 }
 
-header ul li {
-  margin-left: 25px;
+.nav-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
 }
 
-.greeting .container {
+.greeting {
+  margin: 90px 0px;
   display: flex;
-  gap: 40px;
 }
 
 .website-image {
