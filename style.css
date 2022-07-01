@@ -22,5 +22,11 @@ header ul li {
 
 .greeting {
   display: flex;
+  gap: 40px;
   margin: 70px 0;
+}
+
+.website-image {
+  width: 390px;
+  height: 170px;
 }
