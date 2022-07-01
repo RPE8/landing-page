@@ -4,7 +4,9 @@
   --header-main-font-color: #f9faf8;
   --header-background-color: #1f2937;
   --header-second-font-color: #e5e7eb;
+  --info-main-font-color: #1f2937;
   --sign-up-button-background: #3882f6;
+  --info-img-border-color: #3882f6;
 }
 
 * {
@@ -126,4 +128,28 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 80px;
+}
+
+#info-list {
+  gap: 50px;
+}
+
+#info figure {
+  display: flex;
+  width: 120px;
+  flex-direction: column;
+}
+
+#info figure figcaption {
+  color: var(--info-main-font-color);
+  font-size: 13px;
+  text-align: center;
+}
+
+.info-img {
+  border: 3px var(--info-img-border-color) solid;
+  border-radius: 12px;
+  width: 120px;
+  height: 120px;
 }
