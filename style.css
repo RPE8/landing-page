@@ -30,6 +30,13 @@ body {
   margin: 0 auto;
 }
 
+.list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+}
+
 header {
   padding-top: 20px;
 }
@@ -41,7 +48,7 @@ header > .container {
 }
 
 header,
-.greeting {
+#greeting {
   color: white;
   background-color: var(--header-background-color);
 }
@@ -66,18 +73,11 @@ header,
   font-size: 24px;
 }
 
-#nav-list {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  list-style-type: none;
-}
-
 #nav-list li {
   margin-left: 20px;
 }
 
-.greeting {
+#greeting {
   margin: 120px 0px;
   display: flex;
   justify-content: space-between;
@@ -118,8 +118,12 @@ main {
   flex: 1 1 auto;
 }
 
+h2 {
+  margin: 25px 0px;
+}
+
 #info {
-  margin-top: 30px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
