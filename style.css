@@ -3,3 +3,19 @@
 html {
   font-family: "Roboto Condensed";
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+header ul li {
+  margin-left: 25px;
+}
