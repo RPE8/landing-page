@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@400;900&display=swap");
+
+:root {
+  --header-main-font-color: #f9faf8;
+  --header-background-color: #1f2937;
+  --header-second-font-color: #e5e7eb;
+  --sign-up-button-background: #3882f6;
+}
 
 * {
   margin: 0;
@@ -8,7 +15,7 @@
 
 html {
   height: 100%;
-  font-family: "Roboto Condensed";
+  font-family: "Roboto";
 }
 
 .container {
@@ -30,27 +37,73 @@ header > .container {
 header,
 .greeting {
   color: white;
-  background-color: #1f2937;
+  background-color: var(--header-background-color);
 }
 
-.navbar {
+#navbar {
   display: flex;
   justify-content: space-between;
 }
 
-.nav-list {
+#slogan-description,
+#nav-list {
+  color: var(--header-second-font-color);
+  font-size: 18px;
+}
+
+#logo,
+#main-slogan {
+  color: var(--header-font-color);
+}
+
+#logo {
+  font-size: 24px;
+}
+
+#nav-list {
   padding: 0;
   margin: 0;
   display: flex;
   list-style-type: none;
 }
 
+#nav-list li {
+  margin-left: 20px;
+}
+
 .greeting {
-  margin: 90px 0px;
+  margin: 120px 0px;
   display: flex;
+  justify-content: space-between;
+}
+.website-description {
+  flex: 0 1 470px;
+}
+
+#main-slogan {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+#slogan-description {
+  color: var(--header-second-font-color);
+  font-size: 18px;
+}
+
+.sign-up-button {
+  border: none;
+  font-weight: 900;
+  margin-top: 10px;
+  width: 125px;
+  padding: 8px 0px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: var(--header-main-font-color);
+  background-color: var(--sign-up-button-background);
 }
 
 .website-image {
-  width: 390px;
-  height: 170px;
+  width: 500px;
+  max-width: 500px;
+  max-height: 230px;
 }
