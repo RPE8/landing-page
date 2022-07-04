@@ -9,6 +9,8 @@
   --info-img-border-color: #3882f6;
   --quote-main-font-color: #1f2937;
   --quote-background-color: #e5e7eb;
+  --sign-up-section-background: #3882f6;
+  --sign-up-main-font-color: #f9faf8;
 }
 
 * {
@@ -184,4 +186,17 @@ h2 {
 #quote footer p,
 #quote footer cite {
   font-style: normal;
+}
+
+#sign-up-container {
+  background-color: var(--sign-up-section-background);
+  color: var(--sign-up-main-font-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer-sign-up-button {
+  border: 2px var(--sign-up-main-font-color) solid;
+  display: block;
 }
