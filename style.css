@@ -8,6 +8,7 @@
   --sign-up-button-background: #3882f6;
   --info-img-border-color: #3882f6;
   --quote-main-font-color: #1f2937;
+  --quote-background-color: #e5e7eb;
 }
 
 * {
@@ -128,7 +129,7 @@ h2 {
   color: var(--info-main-font-color);
 }
 
-#info {
+#info .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,6 +159,11 @@ h2 {
   border-radius: 12px;
   width: 150px;
   height: 150px;
+}
+
+#quote {
+  width: 100%;
+  background-color: var(--quote-background-color);
 }
 
 #quote p {
