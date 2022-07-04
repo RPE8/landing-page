@@ -7,6 +7,7 @@
   --info-main-font-color: #1f2937;
   --sign-up-button-background: #3882f6;
   --info-img-border-color: #3882f6;
+  --quote-main-font-color: #1f2937;
 }
 
 * {
@@ -157,4 +158,21 @@ h2 {
   border-radius: 12px;
   width: 150px;
   height: 150px;
+}
+
+#quote p {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+
+  /* color: var(--quote-main-font-color); */
+}
+
+#quote footer p {
+  text-align: right;
+  font-weight: bold;
+}
+#quote footer p,
+#quote footer cite {
+  font-style: normal;
 }
