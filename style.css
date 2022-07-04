@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300;400;500;600;900&display=swap");
 
 :root {
   --header-main-font-color: #f9faf8;
@@ -162,21 +162,22 @@ h2 {
 }
 
 #quote {
-  width: 100%;
+  padding: 150px 0px;
   background-color: var(--quote-background-color);
 }
 
 #quote p {
   font-size: 36px;
-  font-weight: light;
+  font-weight: 300;
   font-style: italic;
 
   /* color: var(--quote-main-font-color); */
 }
 
 #quote footer p {
+  font-size: 26px;
   text-align: right;
-  font-weight: bold;
+  font-weight: 500;
 }
 #quote footer p,
 #quote footer cite {
